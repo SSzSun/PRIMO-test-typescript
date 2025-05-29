@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { merge } from "../src/index";
+import { merge } from "../src/merge";
 
 test("merge with one empty array", () => {
   expect(merge([], [3, 2, 1], [])).toEqual([1, 2, 3]);
